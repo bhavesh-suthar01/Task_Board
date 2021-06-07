@@ -1,0 +1,71 @@
+.Login {
+    width: 100%;
+    height: calc(100vh - 50px);
+    background: #352e2e url(../svg/ball_wed.svg);
+}
+.login_form, .singup_form {
+    width: 80%;
+    max-width: 400px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 1px 1px rgb(0 0 0 / 12%), 0 2px 2px rgb(0 0 0 / 12%), 0 5px 4px rgb(0 0 0 / 12%), 0 8px 8px rgb(0 0 0 / 12%), 0 16px 16px rgb(0 0 0 / 12%);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+}
+form input {
+    width: 80%;
+    height: 30px;
+    border: 0px;
+    border-bottom: 2px solid green;
+    padding: 0px 10px;
+    margin: 10px 0;
+    background: transparent;
+    border-radius: 2px;
+    color: white;
+}
+.forminput {
+    display: flex;
+    align-items: center;
+}
+.forminput img {
+    width: 24px;
+    margin: 0 10px;
+}
+form button {
+    margin: 20px 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 900;
+    background: #ffffff8f;
+    box-shadow: 0 1px 2px rgb(255 255 255 / 11%), 0 2px 4px rgb(255 255 255 / 11%), 0 4px 8px rgb(255 255 255 / 11%), 0 8px 16px rgb(255 255 255 / 11%);
+}
+.formhead {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: #b0a6a6;
+    letter-spacing: 1px;
+}
+.formsingup {
+    text-align: center;
+    padding: 5px 10px 20px;
+    color: #b0a6a6;
+    font-size: 14px;
+}
+.formsingup span {
+    letter-spacing: 1px;
+    font-size: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.formsingup span a {
+    color: #b0a6a6;;
+}

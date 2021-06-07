@@ -1,0 +1,289 @@
+.logout {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.dash {
+    color: white;
+    font-weight: bold;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+.log_out img {
+    width: 30px;
+    padding: 2.5px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.addlist {
+    position: relative;
+    z-index: 1000;
+}
+.addlist_v {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 15px;
+    right: 15px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0px 1px rgb(0 0 0 / 12%), 0 0px 2px rgb(0 0 0 / 12%), 0 0px 4px rgb(0 0 0 / 12%), 0 0px 8px rgb(0 0 0 / 12%), 0 0px 16px rgb(0 0 0 / 12%), 0 0px 32px rgb(0 0 0 / 12%);
+}
+.addlist_v img {
+    width: 100%;
+    cursor: pointer;
+}
+.addlist_i {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    backdrop-filter: blur(10px);
+}
+.form_i {
+    width: 60%;
+    max-width: 400px;
+    background: rgb(87, 83, 83);
+    border-radius: 20px;
+    height: 30vh;
+    transform: translate(-50%, -50%);
+    margin: 50vh 0 0 50%;
+    box-shadow: 0 0px 1px rgb(0 0 0 / 12%), 0 0px 2px rgb(0 0 0 / 12%), 0 0px 4px rgb(0 0 0 / 12%), 0 0px 8px rgb(0 0 0 / 12%), 0 0px 16px rgb(0 0 0 / 12%), 0 0px 32px rgb(0 0 0 / 12%);
+}
+.close {
+    width: 25px;
+    height: 25px;
+    background: rgb(255 255 255 / 20%);
+    text-align: center;
+    line-height: 25px;
+    border-radius: 50%;
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: 900;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    box-shadow: 0 0px 1px rgb(0 0 0 / 15%), 0 0px 2px rgb(0 0 0 / 15%), 0 0px 4px rgb(0 0 0 / 15%), 0 0px 8px rgb(0 0 0 / 15%), 0 0px 16px rgb(0 0 0 / 15%), 0 0px 32px rgb(0 0 0 / 15%);
+    cursor: pointer;
+}
+.close:hover {
+    background: rgb(255 255 255 / 23%);
+}
+.close:active {
+    background: rgb(255 255 255 / 18%);
+}
+.field_i input {
+    width: 80%;
+    height: 30px;
+    border: 0px;
+    border-bottom: 2px solid green;
+    padding: 0px 10px;
+    margin: 60px 0 0 10%;
+    background: transparent;
+    border-radius: 2px;
+    color: white;
+    text-align: center;
+}
+.field_i input::placeholder {
+    text-align: center;
+}
+button {
+    margin: 20px 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 900;
+    box-shadow: 0 0px 1px rgb(0 0 0 / 15%), 0 0px 2px rgb(0 0 0 / 15%), 0 0px 4px rgb(0 0 0 / 15%), 0 0px 8px rgb(0 0 0 / 15%), 0 0px 16px rgb(0 0 0 / 15%), 0 0px 32px rgb(0 0 0 / 15%);
+    background: rgb(255 255 255 / 18%);
+    cursor: pointer;
+}
+button:hover {
+    background: rgb(255 255 255 / 20%);
+}
+button:active {
+    background: rgb(255 255 255 / 18%);
+}
+
+/* _________List________ */
+.list_body {
+    width: 60%;
+    max-width: 400px;
+    overflow: hidden;
+    height: 70vh;
+    background: rgb(87, 83, 83);
+    margin: 25px 0 0 0;
+    border-radius: 25px;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 12%), 0 2px 2px rgb(0 0 0 / 12%), 0 2px 4px rgb(0 0 0 / 12%), 0 4px 8px rgb(0 0 0 / 12%), 0 8px 16px rgb(0 0 0 / 12%), 0 16px 32px rgb(0 0 0 / 12%);
+}
+.list {
+    display: flex;
+    height: 60px;
+    border-bottom: 1px solid black;
+    box-shadow: 0 0px 15px -5px black;
+    align-items: center;
+    justify-content: space-between;
+}
+.select {
+    width: 120px;
+    height: 30px;
+    margin: 0 15px;
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.137);
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+.select:focus,
+.select:active {
+    outline: none;
+    border: none;
+}
+.select:hover {
+    outline: none;
+    border: 1px solid black;
+}
+.delete_l {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+}
+.delete_l:hover::after {
+    content: 'Delete List';
+}
+.add_t {
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
+}
+.add_t:hover::after {
+    content: 'Add Task';
+}
+.add_t:hover::after,
+.delete_l:hover::after,
+.delete_t:hover::after {
+    position: absolute;
+    padding: 5px 10px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    text-align: center;
+    right: 0px;
+    top: 25px;
+}
+.delete_l img,
+.delete_t img,
+.add_t img {
+    width: 100%;
+    cursor: pointer;
+}
+
+
+
+
+/* _________Task_________ */
+.task {
+    width: 100%;
+    height: calc(100% - 60px);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.task p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+.task_detail {
+    position: relative;
+    width: 80%;
+    background: rgb(0 0 0 / 25%);
+    margin: 15px 0 0 10%;
+    border-radius: 20px;
+    padding: 10px;
+}
+.delete_t {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 10px;
+}
+.delete_t:hover::after {
+    content: 'Delete';
+}
+.task_n {
+    font-size: 20px;
+    margin: 0 0 5px 0;
+    font-weight: 600;
+}
+.task_dc, .task_da {
+    margin-left: 10px;
+    width: 90%;
+    max-width: 250px;
+    margin-bottom: 5px;
+    line-break: anywhere;
+}
+
+
+.addtask {
+    position: fixed;
+    z-index: 1001;
+    width: 100%;
+    height: 100vh;
+    backdrop-filter: blur(10px);
+}
+.form_t {
+    width: 60%;
+    max-width: 400px;
+    background: rgb(87, 83, 83);
+    border-radius: 20px;
+    height: 40vh;
+    transform: translate(-50%, -50%);
+    margin: 50vh 0 0 50%;
+    box-shadow: 0 0px 1px rgb(0 0 0 / 12%), 0 0px 2px rgb(0 0 0 / 12%), 0 0px 4px rgb(0 0 0 / 12%), 0 0px 8px rgb(0 0 0 / 12%), 0 0px 16px rgb(0 0 0 / 12%), 0 0px 32px rgb(0 0 0 / 12%);
+}
+.field_t input {
+    width: 80%;
+    height: 30px;
+    border: 0px;
+    border-bottom: 2px solid green;
+    padding: 0px 10px;
+    margin: 20px 0 0 10%;
+    background: transparent;
+    border-radius: 2px;
+    color: white;
+    text-align: center;
+}
+.field_t input:first-child {
+    margin: 60px 0 0 10%;
+}
+.field_t input::placeholder {
+    text-align: center;
+}
+
+
+
+
+@media only screen and (max-width: 480px) {
+
+    .close {
+        font-size: 16px;
+    }
+    .form_i {
+        height: 20vh;
+    }
+    .field_i input {
+        margin: 50px 0 0 10%;
+    }
+    .list_body {
+        width: 75%;
+    }
+    .task_n {
+        font-size: 17px;
+    }
+    .task_dc, .task_da {
+        font-size: 15px;
+    }
+}
