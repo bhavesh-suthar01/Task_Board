@@ -40,7 +40,7 @@ function App() {
   return (
     <div className="App" style={{ overflow: "hidden", width: "100%" }}>
       {sessioncheck()}
-      <Router>
+      <Router basename="/Task_Board">
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/login" component={Login} />

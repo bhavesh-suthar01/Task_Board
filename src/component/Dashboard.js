@@ -45,16 +45,21 @@ class Dashboard extends Component {
 
 
     addlist() {
-        var arr = this.state.Detail;
-        arr[localStorage.getItem("login")] = {
-            ...arr[localStorage.getItem("login")],
-            [this.state.list_name]: []
+        if (this.state.list_name === "" || this.state.list_name === "Select List") {
+            alert("Enter List Name")
+        } else {
+            var arr = this.state.Detail;
+            arr[localStorage.getItem("login")] = {
+                ...arr[localStorage.getItem("login")],
+                [this.state.list_name]: []
+            }
+            this.setState({
+                Detail: arr
+            })
+            localStorage.setItem("Detail", JSON.stringify(arr))
+            this.setState({ al: false, list_name: "" })
         }
-        this.setState({
-            Detail: arr
-        })
-        localStorage.setItem("Detail", JSON.stringify(arr))
-        this.setState({ al: false, list_name: "" })
+
     }
 
 
@@ -69,24 +74,29 @@ class Dashboard extends Component {
     }
 
     addtask() {
-        var arr = this.state.Detail;
-        arr[localStorage.getItem("login")][this.state.list] = [
-            ...arr[localStorage.getItem("login")][this.state.list], {
-                taskname: this.state.taskname,
-                taskdes: this.state.taskdes,
-                taskdate: this.state.taskdate
-            }
-        ]
-        this.setState({
-            Detail: arr
-        })
-        localStorage.setItem("Detail", JSON.stringify(arr));
-        this.setState({
-            at: false,
-            taskname: "",
-            taskdes: "",
-            taskdate: "",
-        })
+        if (this.state.taskname === "" || this.state.taskdes === "") {
+            alert("Enter Detail")
+        } else {
+            var arr = this.state.Detail;
+            arr[localStorage.getItem("login")][this.state.list] = [
+                ...arr[localStorage.getItem("login")][this.state.list], {
+                    taskname: this.state.taskname,
+                    taskdes: this.state.taskdes,
+                    taskdate: this.state.taskdate
+                }
+            ]
+            this.setState({
+                Detail: arr
+            })
+            localStorage.setItem("Detail", JSON.stringify(arr));
+            this.setState({
+                at: false,
+                taskname: "",
+                taskdes: "",
+                taskdate: "",
+            })
+        }
+
     }
 
 
