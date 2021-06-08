@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Task_Board/static/css/main.e77b7629.chunk.css",
+    "main.js": "/Task_Board/static/js/main.92a79d07.chunk.js",
+    "main.js.map": "/Task_Board/static/js/main.92a79d07.chunk.js.map",
+    "runtime-main.js": "/Task_Board/static/js/runtime-main.02174b4a.js",
+    "runtime-main.js.map": "/Task_Board/static/js/runtime-main.02174b4a.js.map",
+    "static/js/2.1daeb05e.chunk.js": "/Task_Board/static/js/2.1daeb05e.chunk.js",
+    "static/js/2.1daeb05e.chunk.js.map": "/Task_Board/static/js/2.1daeb05e.chunk.js.map",
+    "index.html": "/Task_Board/index.html",
+    "static/css/main.e77b7629.chunk.css.map": "/Task_Board/static/css/main.e77b7629.chunk.css.map",
+    "static/js/2.1daeb05e.chunk.js.LICENSE.txt": "/Task_Board/static/js/2.1daeb05e.chunk.js.LICENSE.txt",
+    "static/media/add.09d03da6.png": "/Task_Board/static/media/add.09d03da6.png",
+    "static/media/index.css": "/Task_Board/static/media/ball_wed.4e2f236a.svg",
+    "static/media/email.a1f03af3.png": "/Task_Board/static/media/email.a1f03af3.png",
+    "static/media/logout.d0efcc87.png": "/Task_Board/static/media/logout.d0efcc87.png",
+    "static/media/password.883b9ec1.png": "/Task_Board/static/media/password.883b9ec1.png",
+    "static/media/username.ea9aec95.png": "/Task_Board/static/media/username.ea9aec95.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.02174b4a.js",
+    "static/js/2.1daeb05e.chunk.js",
+    "static/css/main.e77b7629.chunk.css",
+    "static/js/main.92a79d07.chunk.js"
+  ]
+}
