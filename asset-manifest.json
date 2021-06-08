@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Task_Board/static/css/main.e77b7629.chunk.css",
-    "main.js": "/Task_Board/static/js/main.27cfe4a3.chunk.js",
-    "main.js.map": "/Task_Board/static/js/main.27cfe4a3.chunk.js.map",
+    "main.js": "/Task_Board/static/js/main.753d039b.chunk.js",
+    "main.js.map": "/Task_Board/static/js/main.753d039b.chunk.js.map",
     "runtime-main.js": "/Task_Board/static/js/runtime-main.02174b4a.js",
     "runtime-main.js.map": "/Task_Board/static/js/runtime-main.02174b4a.js.map",
     "static/js/2.1daeb05e.chunk.js": "/Task_Board/static/js/2.1daeb05e.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.02174b4a.js",
     "static/js/2.1daeb05e.chunk.js",
     "static/css/main.e77b7629.chunk.css",
-    "static/js/main.27cfe4a3.chunk.js"
+    "static/js/main.753d039b.chunk.js"
   ]
 }
