@@ -1,5 +1,5 @@
 # Task_Board Web Project in React Js
-<a href="https://www.youtube.com/playlist?list=PL7zl8TDRnbulLetcbkthT0p_IzwgRAYbu"> <img src="https://github.com/bhavesh-suthar01/Task_Board/blob/gh-pages/home.JPG"> </a>
+<a href="https://www.youtube.com/playlist?list=PL7zl8TDRnbulLetcbkthT0p_IzwgRAYbu"> <img src="https://github.com/bhavesh-suthar01/Task_Board/blob/gh-pages/home.JPG" width="200px"> </a>
 <br>I create this project in:
 <li>JavaScript
 <li>HTML
