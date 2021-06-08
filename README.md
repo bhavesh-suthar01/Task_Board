@@ -8,7 +8,7 @@
 <li>HTML
 <li>React.js
 <li><a href=
-"https://in.linkedin.com/bhavesh-suthar01">LinkedIn</a>
+"https://www.linkedin.com/in/bhavesh-suthar01">LinkedIn</a>
 <li><a href=
 "https://www.instagram.com/bhavesh_bhardwaj_">Instagram</a>
 <li><a href=
